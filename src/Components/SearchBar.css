@@ -1,0 +1,80 @@
+.SearchBar{
+    background-image: url('../Images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.SearchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border-bottom: 20px;
+  }
+  
+  .SearchBar-sort-options {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-weight: bold;
+}
+/* .SearchBar-sort-options ul{
+    display: inline;
+    text-decoration: underline;
+} */
+  .SearchBar-sort-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .SearchBar-sort-options li {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size:x;
+    font-style: normal;
+    color: #ccc;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  .SearchBar-fields {
+    display: flex;
+    width: 100%;
+    max-width: 650px;
+  }
+  
+  .SearchBar-fields input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .SearchBar-fields{
+    padding : 30px
+  }
+  
+  .SearchBar-submit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .SearchBar-submit button {
+    padding: 13px 27px;
+    background-color: #f05a28;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
