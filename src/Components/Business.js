@@ -10,7 +10,7 @@ const Business = ({ business }) => {
     zipCode,
     category,
     rating,
-    reviewcount,
+    reviewCount,
   } = business;
   return (
     <div className="Business">
@@ -27,7 +27,7 @@ const Business = ({ business }) => {
         <div className="Business-reviews">
           <h3>{category}</h3>
           <h3 className="rating">{`Rating ${rating}`}</h3>
-          <p>{`${reviewcount} Ulasan`}</p>
+          <p>{`${reviewCount} Ulasan`}</p>
         </div>
       </div>
     </div>
