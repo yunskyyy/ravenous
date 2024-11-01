@@ -1,4 +1,3 @@
-import "./App.css";
 import BusinessList, { businesses } from "./Components/BusinessList";
 import SearchBar from "./Components/SearchBar";
 
